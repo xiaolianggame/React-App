@@ -1,0 +1,40 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.TextareaItem {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+    height: 50px;
+    z-index: 999;
+    display: flex;
+}
+.TextareaItem input {
+    flex: 4;
+    border: solid 2px;
+}
+.TextareaItem a {
+    flex: 1;
+    height: 50px;
+}
+.me {
+    width: 100%;
+    border: solid 0.5px #eee;
+}
+.me div {
+  margin-left:  90%;
+}
+.chat {
+    position: fixed;
+    top: 46px;
+    left: 0;
+    right: 0;
+    bottom: 54px;
+    overflow: hidden;
+    overflow: auto;
+}

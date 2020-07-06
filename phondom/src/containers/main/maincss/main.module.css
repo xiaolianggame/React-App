@@ -1,0 +1,20 @@
+.btndiv {
+    display: flex;
+    position: fixed;
+    height: 49px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
+.btndiv a {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+}
+.noactive {
+    background-color: slategray;
+}
+.btnactive {
+    background-color: tomato;
+    color: white;
+}
